@@ -1,7 +1,8 @@
 # POI Android
 
-[![Release](https://jitpack.io/v/famendola-eagleprojects/poi-android.svg)]
-(https://jitpack.io/#famendola-eagleprojects/poi-android)
+[![Release](https://jitpack.io/v/famendola-eagleprojects/poi-android.svg)](https://jitpack.io/#famendola-eagleprojects/poi-android)
+
+All kudos for poi-android to [SUPERCILEX](https://github.com/SUPERCILEX/poi-android)
 
 POIA is a simple library enabling [Apache POI](https://poi.apache.org/) usage on Android.
 
