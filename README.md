@@ -1,6 +1,7 @@
 # POI Android
 
-[![Build Status](https://travis-ci.org/SUPERCILEX/poi-android.svg?branch=master)](https://travis-ci.org/SUPERCILEX/poi-android)
+[![Release](https://jitpack.io/v/famendola-eagleprojects/poi-android.svg)]
+(https://jitpack.io/#famendola-eagleprojects/poi-android)
 
 POIA is a simple library enabling [Apache POI](https://poi.apache.org/) usage on Android.
 
@@ -26,13 +27,13 @@ allprojects {
 And the POIA dependency itself:
 
 ```groovy
-implementation "com.github.SUPERCILEX.poi-android:poi:$poiVersion"
+implementation "com.github.famendola-eagleprojects.poi-android:poi:$poiVersion"
 ```
 
 If you're using proguard, also add:
 
 ```groovy
-implementation "com.github.SUPERCILEX.poi-android:proguard:$poiVersion"
+implementation "com.github.famendola-eagleprojects.poi-android:proguard:$poiVersion"
 ```
 
 If you want source code and documentation, add the real Apache POI dependency as `compileOnly`:
@@ -46,9 +47,9 @@ If you need a newer version of Apache POI than is provided by this transpiler, u
 as making a fork and changing a few lines of code:
 
 1. Fork the repo and
-   [update Apache POI](https://github.com/SUPERCILEX/poi-android/blob/bddfb4dbb39b4db704af6e4764a4315bc79513f9/build.gradle#L15)
+   [update Apache POI](https://github.com/famendola-eagleprojects/poi-android/blob/bddfb4dbb39b4db704af6e4764a4315bc79513f9/build.gradle#L15)
     1. PSA: you can find Apache POI release notes [here](https://poi.apache.org/changes.html)
-1. Simply replace `SUPERCILEX` in the Gradle dependency with your own GitHub username
+1. Simply replace `famendola-eagleprojects` in the Gradle dependency with your own GitHub username
 1. That's it, it's that simple! 🚀
 
 ## Notes
